@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.680636">
+<testcase classname="To Automate Adactin hotel booking" name="To generate order no in adactin hotel page" time="37.680636">
+<system-out><![CDATA[Given User must be in adactin hotel booking page............................passed
+And User Login using valid username and password............................passed
+When User enter booking details.............................................passed
+And User must click selected hotel..........................................passed
+And User must enter card details for payment................................passed
+Then Check whether the order No is generated................................passed
+Then To high light the order No.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

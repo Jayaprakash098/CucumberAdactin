@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-24T13:29:01.422Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5454869400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initiateBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 235239900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.maximize()"
+            }
+          },
+          {
+            "result": {
+              "duration": 979300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.stTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52442100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.waittime()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To generate order no in adactin hotel page",
+        "description": "",
+        "id": "to-automate-adactin-hotel-booking;to-generate-order-no-in-adactin-hotel-page",
+        "after": [
+          {
+            "result": {
+              "duration": 432099400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.taskEndSnap()"
+            }
+          },
+          {
+            "result": {
+              "duration": 285600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 233700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172442300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.quit()"
+            }
+          },
+          {
+            "result": {
+              "duration": 186000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.endMessage()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11275472400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must be in adactin hotel booking page",
+            "match": {
+              "location": "StepDefinition.user_must_be_in_adactin_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7334906800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Login using valid username and password",
+            "match": {
+              "location": "StepDefinition.user_Login_using_valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2973485500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter booking details",
+            "match": {
+              "location": "StepDefinition.user_enter_booking_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1805573200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User must click selected hotel",
+            "match": {
+              "location": "StepDefinition.user_must_click_selected_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1706015700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User must enter card details for payment",
+            "match": {
+              "location": "StepDefinition.user_must_enter_card_details_for_payment(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "key",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "first name",
+                  "jayaprakash"
+                ]
+              },
+              {
+                "cells": [
+                  "last name",
+                  "baskaran"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai,india"
+                ]
+              },
+              {
+                "cells": [
+                  "card no",
+                  "1564812567858546"
+                ]
+              },
+              {
+                "cells": [
+                  "cvv no",
+                  "584"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6098525300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Check whether the order No is generated",
+            "match": {
+              "location": "StepDefinition.check_whether_the_order_No_is_generated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47598300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To high light the order No",
+            "match": {
+              "location": "StepDefinition.to_high_light_the_order_No()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Automate Adactin hotel booking",
+    "description": "",
+    "id": "to-automate-adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "file:adactin.feature",
+    "tags": []
+  }
+]
